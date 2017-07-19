@@ -12,6 +12,7 @@ services:
       MYSQL_USER: mysql
       MYSQL_PASSWORD: mysql
       MYSQL_DATABASE: dms-calendar
+    #entrypoint: [".docker/docker-setup.sh"]
   db:
     image: mysql
     ports:

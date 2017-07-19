@@ -1,9 +1,0 @@
-#!/bin/bash
-set -e
-
-ls -lah
-pwd
-
-# mysql -u $DB_ENV_MYSQL_USER -p$DB_ENV_MYSQL_PASSWORD $DB_ENV_MYSQL_DATABASE < config/schema/schema.sql
-
-exec "$@"

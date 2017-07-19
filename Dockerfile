@@ -17,4 +17,4 @@ RUN ln -s /usr/src/calendar/webroot /var/www/html
 
 RUN composer install
 
-RUN cp config/app.default.php config/app.php
+# RUN cp config/app.default.php config/app.php
